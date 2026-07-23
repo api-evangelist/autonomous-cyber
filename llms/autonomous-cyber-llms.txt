@@ -1,0 +1,17 @@
+# Autonomous Cyber
+
+> Autonomous Cyber is the maker of FUZZ-E, an AI platform for offensive cybersecurity ("The AI Platform for Hacking"). It supports commercial and government red teams with deep reconnaissance, adaptive custom tooling against AI-enabled defenses, and integrated intelligence workflows. The company states it works strictly in the American national interest. No public developer API is currently documented.
+
+## Company
+- [Website](https://www.acyber.com/): Autonomous Cyber / FUZZ-E marketing and platform-access site.
+- [Run the platform](https://airtable.com/appQxq6BfKf36PAsr/pagBr8br2z7Yen68y/form): Platform access / contact request form.
+- [Careers](https://jobs.acyber.com): Open roles at Autonomous Cyber.
+- [LinkedIn](https://www.linkedin.com/company/autonomous-cyber): Company LinkedIn page.
+
+## Legal
+- [Terms of Service](https://autonomouscyber.com/terms-of-service)
+- [Privacy Policy](https://autonomouscyber.com/privacy-policy)
+
+## Notes
+- No public API, SDK, developer portal, OpenAPI specification, MCP server, or `.well-known` discovery surface was found (all `/.well-known/*` and `/llms.txt` probes returned 404 as of 2026-07-18).
+- Backed by Bloomberg Beta (surfaced via VC portfolio).

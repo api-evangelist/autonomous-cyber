@@ -1,8 +1,13 @@
 aid: autonomous-cyber
 name: Autonomous Cyber
-description: Autonomous Cyber is a company surfaced as a portfolio company of bloomberg-beta and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Autonomous Cyber is the maker of FUZZ-E, an AI-powered platform for offensive
+  cybersecurity marketed as "The AI Platform for Hacking." It equips commercial and
+  government red teams with deep reconnaissance to uncover hard-to-find bugs and compromise
+  networks, adaptive tooling that responds to AI-enabled defenses by building custom
+  capabilities per engagement, and integrated intelligence workflows that consolidate
+  data and toolkits inside the platform. The company states it operates strictly in
+  the American national interest. Surfaced as a portfolio company of Bloomberg Beta;
+  no public developer API is currently documented.
 url: https://raw.githubusercontent.com/api-evangelist/autonomous-cyber/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +15,30 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/6835cc85647b11e34badb5f7/6835d4e6793944ef845dbf8a_Autonomous%20Cyber%20Logo.svg
 tags:
 - Company
+- Cybersecurity
+- Security
+- Artificial Intelligence
+- Offensive Security
+- Penetration Testing
+- Vulnerability Research
+- Government
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.acyber.com/
+- type: SignUp
+  url: https://airtable.com/appQxq6BfKf36PAsr/pagBr8br2z7Yen68y/form
+- type: Support
+  url: https://airtable.com/appQxq6BfKf36PAsr/pagBr8br2z7Yen68y/form
+- type: TermsOfService
+  url: https://autonomouscyber.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://autonomouscyber.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/autonomous-cyber
+- type: Careers
+  url: https://jobs.acyber.com
+- type: DomainSecurity
+  url: security/autonomous-cyber-domain-security.yml
+- type: LLMsTxt
+  url: llms/autonomous-cyber-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
